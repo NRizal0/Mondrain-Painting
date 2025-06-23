@@ -8,21 +8,27 @@
     Coral: #e4573b
 
     size of painting: (710px * 1060px)
-
 */
 
 body {
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
-.grid-container {
+#grid-container {
     width: 710px;
     height: 1060px;
     display: grid;
+    grid-template-columns: 1fr 1.5fr 1.25fr 50px;
+    grid-template-rows: 0.8fr 0.75fr 1.25fr 1.25fr;
     gap: 10px;
-
+    background-color: #000;
+    box-shadow: 0 6px 6px hsl(0deg 0% 0% / 0.3);
+    /* remove after when all divs fit */
+    grid-auto-rows: 10px;
 }
 
 .white {
