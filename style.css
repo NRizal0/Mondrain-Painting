@@ -1,0 +1,50 @@
+/* 
+    Gap Colour: #000
+    White: #e6e0dc
+    Red: #fc0c09
+    Black: #0e111b
+    Blue: #1c2471
+    Yellow: #e8d740
+    Coral: #e4573b
+
+    size of painting: (710px * 1060px)
+
+*/
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-container {
+    width: 710px;
+    height: 1060px;
+    display: grid;
+    gap: 10px;
+
+}
+
+.white {
+    background-color: #e6e0dc;
+}
+
+.yellow {
+    background-color: #e8d740;
+}
+
+.red {
+    background-color: #fc0c09;
+}
+
+.black {
+    background-color: #0e111b;
+}
+
+.blue {
+    background-color: #1c2471;
+}
+
+.coral {
+    background-color: #e4573b;
+}
