@@ -19,8 +19,8 @@ body {
 }
 
 #grid-container {
-    width: 710px;
-    height: 1060px;
+    width: 635px;
+    height: 948px;
     display: grid;
     grid-template-areas: 'one one two two two three three four'
                          'one one two two two three three four' 
@@ -36,9 +36,6 @@ body {
     gap: 10px;
     background-color: #000;
     box-shadow: 0 6px 6px hsl(0deg 0% 0% / 0.3);
-
-    /* make it fit into 1 page */
-    scale: 0.75;
 }
 
 /* Define area for each tile */
