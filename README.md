@@ -1,6 +1,6 @@
 # Mondrain Painting
 
-Recreating Red-Yellow-Blue-Black painting by Piet Mondrian using CSS Grid
+Recreating 'Composition with Large Red Plane, Yellow, Black, Grey and Blue' by Piet Mondrian using CSS Grid
 
 
 [Check out my work](https://nrizal0.github.io/Mondrain-Painting/)
