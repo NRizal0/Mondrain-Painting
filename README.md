@@ -1,4 +1,4 @@
-Mondrain Painting
+# Mondrain Painting
 
 Recreating Red-Yellow-Blue-Black painting by Piet Mondrian using CSS Grid
 
